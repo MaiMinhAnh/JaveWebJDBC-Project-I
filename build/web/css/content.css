@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2019, 10:01:16 PM
+    Author     : anhma
+*/
+
+
+#content{
+    position: relative;
+    top: 50px;
+    border-top: 1px solid #ddd;
+}
+#content ul{
+    display: flex;
+    list-style: none;
+}
+#content li{
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+/*
+#content .site-main li.product img{
+    resize: 300px;
+}
+/*
+#content .site-main li.p4{
+    position: relative;
+    top: 400px;
+    left: -1050px;
+}
+#content .site-main li.p4 img{
+    height: 290px;
+}
+
+#content .site-main li.p5 img{
+    height: 290px;
+}
+#content .site-main li.p5{
+    top: 400px;
+    left: -1030px;
+}
+*/
+
+#content .site-content a{
+    color: blue !important;
+}
+
+#content .product-footer{
+    display: flex;
+}
+
+#content .product-footer .edit{
+    position: relative;
+    right: -70px;
+}
+#content .product-footer .delete{
+    position: relative;
+    right: -72px;
+}
+#content .delete button:hover{
+    background-color: #fed700;
+}
+#content .edit button:hover{ 
+background-color: #fed700;
+}
+
+#content li:hover{
+    border: 1px solid #ddd;
+}
+#content button{
+    position: relative;
+    right: -100px;
+}
